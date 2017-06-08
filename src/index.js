@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Router from './router';
 import BooktypeEditor from './pages/BooktypeEditor';
-import reactTapPlugin from 'react-tap-event-plugin';
+import reactTapPlugin from 'preact-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 reactTapPlugin();
